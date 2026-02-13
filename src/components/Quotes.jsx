@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 
 /**
  * Quotes Section - Romantic love quotes
@@ -14,7 +14,7 @@ function Quotes() {
           setInView(true);
         }
       },
-      { threshold: 0.3 }
+      { threshold: 0.3 },
     );
 
     if (sectionRef.current) {
@@ -30,10 +30,11 @@ function Quotes() {
 
   return (
     <section className="quotes-section" ref={sectionRef}>
-      <div className={`quote-card ${inView ? 'fade-scale' : ''}`}>
+      <div className={`quote-card ${inView ? "fade-scale" : ""}`}>
         <div className="quote-icon">❝</div>
         <p className="quote-text">
-          "I fell in friendship with you because of the million things you never knew you were doing."
+          " I fell in love with you because when I looked at you, I saw myself,
+          my thoughts, my vibes, my everything. 💕"
         </p>
         <div className="quote-divider"></div>
       </div>

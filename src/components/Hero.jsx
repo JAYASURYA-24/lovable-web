@@ -19,10 +19,10 @@ function Hero() {
     <section className="hero">
       <div className={`hero-content ${visible ? "visible" : ""}`}>
         {/* ===== EXISTING CONTENT (UNCHANGED) ===== */}
-        <div className="hero-heart-icon">💕</div>
+        <div className="hero-heart-icon">💜✨</div>
 
         <h1 className="hero-title">
-          Three Month.
+          Three Months.
           <br />A Lifetime of Love.
         </h1>
 

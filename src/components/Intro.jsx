@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
-import karthika from "../assets/20260212_195717.jpg.jpeg";
-import surya from "../assets/IMG-20260119-WA0006.jpg.jpeg";
+import karthika from "../assets/nithyaa.jpeg";
+import surya from "../assets/logeshhh.jpeg";
 /**
  * Intro Section - Introducing the two lovers with photo cards
  */
@@ -32,7 +32,7 @@ function Intro() {
   return (
     <section className="intro" ref={sectionRef}>
       <h2 className={`section-title ${inView ? "slide-up" : ""}`}>
-        Two Souls, One Heart
+        Two Souls, One Story
       </h2>
       <div className="intro-cards">
         <div
@@ -41,14 +41,14 @@ function Intro() {
         >
           <div className="friend-photo">
             <div className="photo-frame"></div>
-            <img src={surya} alt="Surya" />
+            <img src={surya} alt="Logesh" />
           </div>
-          <h3 className="friend-name">Surya</h3>
+          <h3 className="friend-name">Lowkey</h3>
           <p className="friend-description">
-            My rock, my comfort, my safe place. The one who sees through my
-            walls and like every part of me.
+            My pookiee🎀, My porukki😇, My Chlooo😍, My thangoo🥰, My Babyy👶,
+            My Mama🤩 & My Pu*****🙂. To Lowkey🤎.
           </p>
-          <div className="love-emoji">💙</div>
+          <div className="love-emoji">🤎</div>
         </div>
 
         <div className="heart-connector">
@@ -63,12 +63,12 @@ function Intro() {
             <div className="photo-frame"></div>
             <img src={karthika} alt="Karthika" />
           </div>
-          <h3 className="friend-name">Karthika</h3>
+          <h3 className="friend-name">Neethu</h3>
           <p className="friend-description">
-            My sunshine, my laughter, my everything. The one who makes every
-            moment feel like magic.
+            My chlooo😍, My thangoo, My baby👼, My kuttu ma🤩, My thanga
+            pulla🫂, My Pondatti😘 To Neethu💜
           </p>
-          <div className="love-emoji">💛</div>
+          <div className="love-emoji">💜</div>
         </div>
       </div>
     </section>

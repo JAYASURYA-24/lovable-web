@@ -223,6 +223,103 @@ body {
   filter: drop-shadow(0 0 10px var(--glow-pink));
 }
 
+.valentine-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.valentine-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.valentine-options {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  height: 80px;
+}
+
+.yes-btn {
+  padding: 14px 34px;
+  font-size: 1rem;
+  border-radius: 40px;
+  border: none;
+  background: linear-gradient(135deg, #ff4d6d, #ff85a1);
+  color: white;
+  cursor: pointer;
+}
+
+.no-btn {
+  padding: 14px 34px;
+  font-size: 1rem;
+  color: red;
+  border-radius: 40px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  position: absolute;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  transition: transform 0.25s ease;
+}
+
+.love-letter {
+  margin-top: 40px;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+}
+
+.big-love {
+  margin-top: 30px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff4d6d;
+  text-shadow: 0 0 25px rgba(255, 77, 109, 0.6);
+}
+
+.love-letter {
+  position: relative;
+  overflow: hidden;
+}
+
+.love-explosion {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.love-particle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 2.2rem; /* BIG & visible */
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  animation: explode 1.8s ease-out forwards;
+  animation-delay: var(--d);
+}
+
+@keyframes explode {
+  0% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.3);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y)))
+      scale(1.4);
+  }
+}
+
 /* ===================================
    QUOTES SECTION
    =================================== */

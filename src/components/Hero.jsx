@@ -22,16 +22,16 @@ function Hero() {
         <div className="hero-heart-icon">💕</div>
 
         <h1 className="hero-title">
-          Four Month.
+          Three Month.
           <br />A Lifetime of Love.
         </h1>
 
         <p className="hero-subtitle">
-          Two hearts that found each other in the chaos of life.
+          One unexpected meeting. Two hearts.
           <br />
-          A connection so deep, it feels like destiny.
+          A thousand emotions in a single glance.
           <br />
-          This is our Love story.
+          This is where forever begins.
         </p>
 
         <div className="scroll-indicator">
@@ -46,7 +46,7 @@ function Hero() {
 
             <div className="valentine-options">
               <button className="yes-btn" onClick={() => setAccepted(true)}>
-                YES 💕
+                YES 🙈
               </button>
 
               <button
@@ -54,7 +54,7 @@ function Hero() {
                 onMouseEnter={moveNoButton} // desktop
                 onTouchStart={moveNoButton} // mobile
               >
-                NO 🙈
+                NO 🥲
               </button>
             </div>
           </div>

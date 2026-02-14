@@ -55,7 +55,7 @@ function Memories() {
         Our Precious Moments
       </h2>
       <p className={`section-subtitle ${inView ? "slide-up" : ""}`}>
-        "In you, I've found the love of my life and my closest, truest friend"
+        "In you, I've found the love of my life and my closest, truest soul"
       </p>
       <div className="memory-grid">
         {memories.map((memory, index) => (

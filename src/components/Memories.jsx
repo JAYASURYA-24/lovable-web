@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
-import hand from "../assets/IMG-20260208-WA0064.jpg.jpeg";
-import ocean from "../assets/IMG-20260208-WA0031.jpg.jpeg";
+import hand from "../assets/meet-at-station.jpeg";
+import ocean from "../assets/eating.jpeg";
+import train from "../assets/train-meet.jpeg";
 /**
  * Memories Section - Photo gallery of romantic moments
  */
@@ -31,21 +32,20 @@ function Memories() {
 
   const memories = [
     {
-      image:
-        "https://images.unsplash.com/photo-1758810410699-2dc1daec82dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3VwbGUlMjByb21hbnRpYyUyMHN1bnNldCUyMHNpbGhvdWV0dGV8ZW58MXx8fHwxNzcwNzkyNTE4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      title: "Sunset Dreams",
-      caption: "day 1 - Our first sunset together",
+      image: train,
+      title: "Train Journey",
+      caption: "1st meet in Train",
     },
     {
       image: hand,
-      title: "Hand in Hand",
-      caption: "day 1 - Walking through life together",
+      title: "Random Outing",
+      caption: "Lovable moments and Places",
     },
 
     {
       image: ocean,
-      title: "Beach Bliss",
-      caption: "day 1 - Making memories by the ocean",
+      title: "Cafe and Hotels",
+      caption: "Our Caring and Sharing",
     },
   ];
 

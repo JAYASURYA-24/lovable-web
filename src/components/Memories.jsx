@@ -2,6 +2,8 @@ import React, { useEffect, useRef, useState } from "react";
 import hand from "../assets/meet-at-station.jpeg";
 import ocean from "../assets/eating.jpeg";
 import train from "../assets/train-meet.jpeg";
+import movie from "../assets/movies.jpeg";
+import temple from "../assets/temples.jpeg";
 /**
  * Memories Section - Photo gallery of romantic moments
  */
@@ -39,13 +41,26 @@ function Memories() {
     {
       image: hand,
       title: "Random Outing",
-      caption: "Lovable moments and Places",
+      caption:
+        "Our meeting at the railway station was unforgettable; I’m going to miss that moment every day from now on. The stations at Kodambakkam, Nungambakkam, Chetpet, and Egmore are truly the best places in Chennai.",
     },
 
     {
       image: ocean,
       title: "Cafe and Hotels",
-      caption: "Our Caring and Sharing",
+      caption:
+        "Eating with you didn't just fill my stomach; it filled my heart, too.",
+    },
+    {
+      image: movie,
+      title: "Movies outing",
+      caption: "Movies with you- Aan paavam, Mask, Attagasam, with love.",
+    },
+    {
+      image: temple,
+      title: "Temple outing",
+      caption:
+        "Everytime when we go temple i think god is not in temple it's with me - that's you🤩",
     },
   ];
 

@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 
 /**
  * Love Reasons Section - Why we love each other
@@ -14,7 +14,7 @@ function LoveReasons() {
           setInView(true);
         }
       },
-      { threshold: 0.2 }
+      { threshold: 0.2 },
     );
 
     if (sectionRef.current) {
@@ -30,38 +30,36 @@ function LoveReasons() {
 
   const reasons = [
     {
-      quote: "I like you not only for what you are, but for what I am when I am with you.",
-      author: "Roy Croft"
+      quote: "I need you like a heart needs a beat",
     },
     {
-      quote: "You are my today and all of my tomorrows.",
-      author: "Leo Christopher"
+      quote:
+        "When I say I love you more, I don’t mean I love you more than you love me",
     },
     {
-      quote: "In all the world, there is no heart for me like yours. In all the world, there is no love for you like mine.",
-      author: "Maya Angelou"
+      quote:
+        "All at once you are the one I have been waiting for. King of my heart, body and soul",
     },
     {
-      quote: "I would rather spend one lifetime with you, than face all the ages of this world alone.",
-      author: "J.R.R. Tolkien"
-    }
+      quote: "I’ll be loving you, always with a love that’s true",
+    },
   ];
 
   return (
     <section className="love-reasons" ref={sectionRef}>
-      <h2 className={`section-title ${inView ? 'slide-up' : ''}`}>
+      <h2 className={`section-title ${inView ? "slide-up" : ""}`}>
         Words Can't Describe
       </h2>
       <div className="reasons-grid">
         {reasons.map((reason, index) => (
-          <div 
-            key={index} 
-            className={`reason-card ${inView ? 'flip-in' : ''}`}
+          <div
+            key={index}
+            className={`reason-card ${inView ? "flip-in" : ""}`}
             style={{ animationDelay: `${index * 0.15}s` }}
           >
             <div className="reason-quote-mark">"</div>
             <p className="reason-quote">{reason.quote}</p>
-            <p className="reason-author">— {reason.author}</p>
+            {/* <p className="reason-author">— {reason.author}</p> */}
           </div>
         ))}
       </div>

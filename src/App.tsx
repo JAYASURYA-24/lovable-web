@@ -28,7 +28,7 @@ function App() {
       <Memories />
       <LoveReasons />
       <MomentGallery />
-      <Bonding />
+      {/* <Bonding /> */}
       <Footer />
     </div>
   );

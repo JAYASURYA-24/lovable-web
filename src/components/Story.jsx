@@ -33,8 +33,8 @@ function Story() {
       title: "Love at First Sight",
       date: "19th October 2025",
       description:
-        "We met unexpectedly on a train. When I first saw you, I thought you were a close friend. That night journey was so beautiful; I will never forget it as long as I live. I didn't just give you space on the train—I gave you a space in my heart",
-      emoji: "🫶🩷",
+        "We met unexpectedly on a train. When I first saw you, I thought you were a close friend. That night journey was so beautiful; I will never forget it as long as I live. I didn't just give you space on the train—I gave you a space in my heart 🫶🩷",
+      emoji: "🫶",
     },
     {
       title: "The First Date",

@@ -30,17 +30,17 @@ function Story() {
 
   const storyMilestones = [
     {
-      title: "Bond at First Sight",
-      date: "February 8, 2026",
+      title: "Love at First Sight",
+      date: "19th October 2025",
       description:
-        "Our ride began with a simple plan, but somewhere between the moving roads and shared silence, time slowed down. The wind carried our words, the journey stretched longer than expected, and I knew this ride would stay with me forever.",
-      emoji: "✨",
+        "We met unexpectedly on a train. When I first saw you, I thought you were a close friend. That night journey was so beautiful; I will never forget it as long as I live. I didn't just give you space on the train—I gave you a space in my heart",
+      emoji: "🫶🩷",
     },
     {
       title: "The First Date",
-      date: "February 8, 2026",
+      date: "4th November 2025",
       description:
-        "A bike ride turned into a beach stop, the waves became our background music. We talked under the open sky until 10 PM, and I never wanted that night to end",
+        "I was in my white shirt and you were in your yellow dress. Between the pav bhaji, the pani puri, and that first cup of tea at the 'Anna' tea shop, it’s a day I’ll never forget. That one fine day—and our first selfie together—will always be so memorable to me",
       emoji: "☕",
     },
   ];
@@ -48,10 +48,10 @@ function Story() {
   return (
     <section className="story" ref={sectionRef}>
       <h2 className={`section-title ${inView ? "slide-up" : ""}`}>
-        Our Friendship Story
+        Our Love Story
       </h2>
       <p className={`story-subtitle ${inView ? "slide-up" : ""}`}>
-        "Every friendship story is beautiful, but ours is my favorite"
+        "Every Love story is beautiful, but ours is my favorite"
       </p>
       <div className="timeline">
         {storyMilestones.map((milestone, index) => (
